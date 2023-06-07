@@ -1,0 +1,70 @@
+.corpo_aluno{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25vh;
+    height: 90vh;
+}
+
+.corpo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20vh;
+}
+
+.tabela_aluno{
+    border-radius: 2rem;
+    border: 1px solid blue;
+    width: 75%;
+    margin: auto;
+}
+
+.tabela{
+    border-radius: 2rem;
+    border: 1px solid blue;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 15vh;
+}
+
+.tabela thead, .tabela_aluno thead{
+    border-bottom: 1px solid blue;
+    background-color: blue;
+    color: white;
+}
+
+.tabela tr , .tabela_aluno tr{
+    border: 1px solid blue;
+    font-size: 1.1rem;
+}
+
+.nao{
+    display: none;
+}
+
+.input{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: whitesmoke;
+    height: 3rem;
+    width: 100%;
+    border: none;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}
+
+.titulo{
+    margin-left: 20%;
+}
+
+.footer_alunos{
+    margin-top: -20vh;
+    margin-left: -5%;
+    position: fixed;
+    background: url(../../img/detalhe2.webp) no-repeat center / cover;
+    z-index: 10;
+    width: 110%;
+    height: 30vh;
+}

@@ -1,0 +1,30 @@
+@media only screen and (max-device-width: 950px) {
+    .fundo_index {
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 78vh;
+    }
+
+    .form_login {
+        width: 95%;
+        margin: auto;
+        margin-top: 12vh;
+    }
+
+    .detalhe{
+        background: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .pessoas{
+        width: 100%;
+        margin: auto;
+    }
+
+    .footer_index{
+        display: none;
+    }
+}

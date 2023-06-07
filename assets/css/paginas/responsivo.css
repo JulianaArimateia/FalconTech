@@ -1,0 +1,21 @@
+@media only screen and (max-device-width: 950px) {
+    .tabela_aluno, .tabela , .form_prof{
+        width: 95%;
+    }
+    .filtro{
+        width: 80%;
+    }
+    .btn_logout{
+        width: 16%;
+        border-radius: 1rem;
+        margin-right: 2%;
+    }
+
+    .header2{
+        border-bottom-right-radius: 3.5rem;
+    }
+
+    .titulo{
+        margin-left: 8%;
+    }
+}

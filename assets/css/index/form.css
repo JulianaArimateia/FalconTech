@@ -1,0 +1,41 @@
+.form_login {
+    margin-left: 10rem;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    width: 25%;
+    height: auto;
+}
+
+.btn_form{
+    width: 100%;
+    height: 3rem;
+    margin: auto;
+    color: white;
+    border: none;
+    background-color: blue;
+    border-radius: 2rem;
+    transition: .2s all;
+    border: 2px solid blue;
+}
+
+.btn_form:hover{
+    background-color: whitesmoke;
+    color: blue;
+}
+
+.titulo_login{
+    color: blue;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.link_cadastro{
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.lista_erros{
+    color: blue;
+}
